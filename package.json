@@ -1,11 +1,30 @@
 {
   "name": "myprofile",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "private": true,
   "description": "online profile",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-scripts": "2.1.3"
   },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/poonamsagar/myProfile.git"
@@ -15,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/poonamsagar/myProfile/issues"
   },
-  "homepage": "https://github.com/poonamsagar/myProfile#readme"
+  "homepage": "https://github.com/poonamsagar/myProfile#readme",
+  "devDependencies": {
+    "popper.js": "^1.14.7"
+  }
 }
