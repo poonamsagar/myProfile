@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import pic from './pic.jpg.jpeg'; 
 
 
 class About extends Component{
@@ -6,13 +7,18 @@ class About extends Component{
         return(
             <div className=" ">
             <div className="jumbotron">
-  <h1 className="display-3">Hello, world!</h1>
-  <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr className="my-4"/>
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p className="lead">
-    <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </p>
+            <div className="row">
+            <div className="col col-xs-12 col-md-3 col-lg-3"> <img src = {pic} alt="pic" width="200px" height="200px"/></div>
+            <div className="col col-md-5 col-lg-5 text-center"><h1 className="display-4">Poonam Sagar</h1>
+                                      <p className="lead text-center">
+                                      <a href="poonamsagar9212@gmail.com">poonamsagar9212@gmail.com</a>
+                                      </p>
+            </div>
+            <div className="col col-md-4 col-lg-4">
+            <div className="pull-right"> Unit 7 8-10 President Avenue, Kogarah-2217, SydneyNSW, Australia.</div>
+            </div>
+            </div>
+  
 </div>
             
             </div>

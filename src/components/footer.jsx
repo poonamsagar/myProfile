@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class Footer extends Component {
     render() {
         return (
@@ -26,6 +27,8 @@ class Footer extends Component {
 
                                 <a className="pin-ic" />
                                 <i className="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+
+                                
                             </div>
                         </div>
                     </div>
