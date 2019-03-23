@@ -7,7 +7,7 @@ class Experience extends Component{
 <div className="experience">
 <h3 className="text-center cv-heading">PROFESSIONAL EXPERIENCE SUMMARY </h3>
 <hr/>
-<table class="table table-bordered">
+<table className="table table-bordered">
   <thead>
     <tr>
       <th scope="col">Company</th>
@@ -51,14 +51,9 @@ Bengaluru, India.</li>
 <p>I believe in continuous learning. I am currently learning ReactJs and working on projects based on
 ReactJs. Some of my projects can be found on GitHub.</p>
 </div>
-</div>
-
-
-
-
-
-    );
+</div> 
+);
     
-    }
+  }
 }
 export default Experience;

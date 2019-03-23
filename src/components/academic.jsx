@@ -8,7 +8,7 @@ class Academic extends Component{
 <h3 className="text-center cv-heading"> ACADEMIC RECORD</h3>
 <hr/>
 <div>
-<table class="table table-bordered">
+<table className="table table-bordered">
   <thead>
     <tr>
       <th scope="col">Qualification</th>

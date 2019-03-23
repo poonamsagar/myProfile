@@ -8,7 +8,7 @@ class Personal extends Component{
 <h3 className="text-center cv-heading"> PERSONAL DOSSIER</h3>
 <hr/>
 <div>
-<table class="table table-bordered">
+<table className="table table-bordered">
   <tbody>
     
     <tr>
