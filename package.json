@@ -36,7 +36,7 @@
   "bugs": {
     "url": "https://github.com/poonamsagar/myProfile/issues"
   },
-  "homepage": "https://github.com/poonamsagar/myProfile#readme",
+  "homepage": "https://poonamsagar.github.io/myProfile/",
   "devDependencies": {
     "popper.js": "^1.14.7",
     "gh-pages": "^1.2.0"
